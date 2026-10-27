@@ -1,0 +1,29 @@
+# CCS build output (regenerated on every build)
+CPU1_RAM/
+CPU1_FLASH/
+Debug/
+Release/
+*.obj
+*.out
+*.map
+*.d
+*_linkInfo.xml
+*.lib
+
+# CCS / clangd generated
+.clangd
+.launches/
+.metadata/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logged data and plots (can be tens of MB)
+logs/
+tools/logs/
+
+# Archives
+*.zip
+
+memory.md
